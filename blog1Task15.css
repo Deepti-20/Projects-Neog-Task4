@@ -1,0 +1,89 @@
+
+:root{
+    --primary-color:
+}
+
+body{
+    padding: 0.5rem;
+    font-family:"montserrat";
+    font-family:"open Sans", sans-serif;
+    font-family: "playfair Display",serif;
+    font-family: "Roboto Slab", serif;
+}
+
+/**spaces **/
+.margin-md {
+    margin: 2rem;
+}
+
+
+/**container**/
+.container-center {
+    max-width: 900px;
+    margin: auto;
+}
+
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/** navigation **/
+.navigation {
+    background-color:darkcyan ;
+    color:white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+/** header **/
+.hero {
+    font-weight: bolder;
+    font-size: x-large;
+    padding: 2rem;
+    padding-top: 5rem;
+}
+
+.hero .hero-heading {
+    text-align: center;
+    padding-top: 1rem;
+    color:black;
+}
+
+/** section **/
+.section h1 {
+    text-align: center;
+}
+
+.section p {
+    text-align: justify;
+    padding: 0.5rem;
+    font-size: x-large;
+    text-align:center
+}
+
+
+.footer {
+    background-color: darkcyan;
+    padding: 2rem 1rem;
+    text-align: center;
+    color:white;
+    border-top-right-radius:2rem
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+
+/* text-align:justify */
